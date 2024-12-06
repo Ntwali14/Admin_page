@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <!-- Rest of the HTML remains the same -->
+    <!-- Side Navigation Menu -->
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>Brand</h1>
+        </div>
+        <!-- Navigation Links -->
+        <ul>
+            <li><img src="dashboard.png" width="30" height="30"><span>Dashboard</span></li>
+            <li><img src="student-with-graduation-cap.png" width="30" height="30"><span>Students</span></li>
+            <li><img src="classroom.png" width="30" height="30"><span>Teachers</span></li>
+            <li><img src="school.png" width="30" height="30"><span>Schools</span></li>
+            <li><img src="payment-method.png" width="30" height="30"><span>Income</span></li>
+            <li><img src="help-web-button.png" width="30" height="30"><span>Help</span></li>
+            <li><img src="settings.png" width="30" height="30"><span>Settings</span></li>        </ul>
+    </div>
+    <!-- Main Content Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="nav">
+                <!-- Search Bar and User Profile -->
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="search.png" height="30" width="30"></button>
+                    <div class="user">
+                        <a href="#" class="btn">AddNew</a>
+                        <img src="notification.png" height="30" width="30">
+                        <div class="img-case">
+                            <img src="user.png" height="30" width="30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content Area -->
+        <div class="content">
+            <!-- Statistics Cards -->
+            <div class="cards">
+                <!-- Students Card -->
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Students</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="graduates.png" width="30" height="30">    
+                    </div>
+                </div>
+                <!-- Schools Card -->
+                <div class="card">
+                    <div class="box">
+                        <h1>5</h1>
+                        <h3>Schools</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="school.png" height="30" width="30">
+                    </div>
+                </div>
+                <!-- Income Card -->
+                <div class="card">
+                    <div class="box">
+                        <h1>350000</h1>
+                        <h3>Income</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="income.png" height="30" width="30">
+                    </div>
+                </div>    
+            </div>
+            <!-- Secondary Content Area -->
+            <div class="content-2">
+                <!-- Recent Payments Section -->
+                <div class="recent-payments">
+                    <div class="title">
+                        <h2>Recent Payments</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <!-- Payments Table -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>School</th>
+                                <th>Amount</th>
+                                <th>Option</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>ABC School</td>
+                                <td>$500</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jane Smith</td>
+                                <td>XYZ School</td>
+                                <td>$750</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>Mike Johnson</td>
+                                <td>DEF School</td>
+                                <td>$600</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>Emily Brown</td>
+                                <td>GHI School</td>
+                                <td>$800</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>David Wilson</td>
+                                <td>JKL School</td>
+                                <td>$900</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- New Students Section -->
+                <div class="new-students">
+                    <div class="title">
+                        <h2>New Students</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <!-- Students Table -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Profile</th>
+                                <th>Name</th>
+                                <th>Option</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="user1.png"></td>
+                                <td>John Doe</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user1.png"></td>
+                                <td>Jane Smith</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user1.png"></td>
+                                <td>Mike Johnson</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user1.png"></td>
+                                <td>Emily Brown</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="user1.png"></td>
+                                <td>David Wilson</td>
+                                <td><a href="#" class="btn">View</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
